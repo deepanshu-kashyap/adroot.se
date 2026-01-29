@@ -153,13 +153,8 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-white mb-16 text-center">People Behind the Results</h2>
           <div className="grid md:grid-cols-3 gap-12">
             {[
-              { 
-                name: 'Yash Kumar', 
-                role: 'Founder & CEO', 
-                bio: '8+ years experience, €10M+ managed ad spend.',
-                image: '/yash.jpeg' 
-              },
-              { name: 'Kjartan Monstad', role: 'Content Director', bio: 'Connecting brand, creative, and conversion systems.' },
+              { name: 'Yash Kumar', role: 'Founder & CEO', bio: '8+ years experience, €10M+ managed ad spend.', image: '/yash.jpeg' },
+              { name: 'Kjartan Monstad', role: 'Content Director', bio: 'Connecting brand, creative, and conversion systems.', image: '/kjartan.jpeg' },
               { name: 'Ceren Kartal', role: 'Creative Director', bio: 'Designing visual systems that convert while strengthening identity.' }
             ].map((member, i) => (
               <div key={i} className="text-center group">
