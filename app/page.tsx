@@ -18,9 +18,10 @@ export default function Home() {
             <a href="#process" className="hover:text-blue-400 transition-colors">Process</a>
             <a href="#team" className="hover:text-blue-400 transition-colors">Team</a>
           </div>
-          <button className="bg-blue-600 text-white px-5 py-2 rounded-full text-xs font-bold hover:bg-blue-500 transition-all glow-blue">
-            Book a Growth Call
-          </button>
+         <a href="https://calendly.com/yash-hypeon/30min" target="_blank" rel="noopener noreferrer"
+         className="bg-blue-600 text-white px-5 py-2 rounded-full text-xs font-bold hover:bg-blue-500 transition-all glow-blue">
+         Book a Growth Call
+        </a>
         </div>
       </nav>
 
@@ -42,14 +43,12 @@ export default function Home() {
               Adroot AB is a performance-first digital growth partner for ecommerce companies in Sweden and Europe. We focus on margins, not just clicks.
             </p>
             <div className="flex flex-wrap gap-5">
-              <button className="bg-white text-black px-10 py-4 rounded-full flex items-center gap-3 font-bold hover:scale-105 transition-all shadow-xl">
-                Book a growth call <ArrowRight size={18} />
-              </button>
-              <button className="border border-white/10 px-10 py-4 rounded-full font-bold hover:bg-white/5 transition-all text-white">
-                Our Methodology
-              </button>
+             <a href="https://calendly.com/yash-hypeon/30min"  target="_blank"  rel="noopener noreferrer"
+            className="bg-white text-black px-10 py-4 rounded-full flex items-center gap-3 font-bold hover:scale-105 transition-all shadow-xl" >
+             Book a growth call <ArrowRight size={18} />
+             </a>
             </div>
-          </div>
+            </div>
 
           {/* Aesthetic Performance Card */}
           <div className="relative group">
@@ -153,14 +152,15 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-white mb-16 text-center">People Behind the Results</h2>
           <div className="grid md:grid-cols-3 gap-12">
             {[
-              { name: 'Yash Kumar', role: 'Founder & CEO', bio: '8+ years experience, €10M+ managed ad spend.', image: '/yash.jpeg' },
-              { name: 'Kjartan Monstad', role: 'Content Director', bio: 'Connecting brand, creative, and conversion systems.', image: '/kjartan.jpeg' },
+              { name: 'Yash Kumar', role: 'Founder & CEO', bio: '8+ years experience, €10M+ managed ad spend.', image: '/yash.jpeg',linkedin: 'https://www.linkedin.com/in/mryashkumar/' },
+              { name: 'Kjartan Monstad', role: 'Content Director', bio: 'Connecting brand, creative, and conversion systems.', image: '/kjartan.jpeg', linkedin: 'https://www.linkedin.com/in/kjartan-monstad-b54434107/'              },
               { name: 'Ceren Kartal', role: 'Creative Director', bio: 'Designing visual systems that convert while strengthening identity.' }
             ].map((member, i) => (
               <div key={i} className="text-center group">
                 <div className="w-32 h-32 bg-slate-800 rounded-full mx-auto mb-8 border-4 border-white/5 group-hover:border-blue-500/50 transition-all overflow-hidden relative">
                   {member.image ? (
                     <img 
+
                       src={member.image} 
                       alt={member.name} 
                       className="w-full h-full object-cover"
@@ -173,7 +173,9 @@ export default function Home() {
                 <p className="text-blue-400 text-xs font-bold uppercase tracking-widest mb-4">{member.role}</p>
                 <p className="text-slate-500 text-sm max-w-xs mx-auto mb-6">{member.bio}</p>
                 <div className="flex justify-center gap-4">
+                  <a href={member.linkedin} target="_blank" rel="noopener noreferrer">
                   <Linkedin size={18} className="text-slate-600 hover:text-white transition-colors cursor-pointer" />
+                </a>
                 </div>
               </div>
             ))}
@@ -189,9 +191,10 @@ export default function Home() {
             <p className="text-sm text-slate-500 leading-relaxed italic mb-8">
               If you’re serious about growth and tired of guesswork, let’s talk.
             </p>
-            <button className="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-slate-200 transition-all">
-              Book a growth call
-            </button>
+           <a href="https://calendly.com/yash-hypeon/30min" target="_blank" rel="noopener noreferrer"
+           className="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-slate-200 transition-all inline-block text-center">
+           Book a growth call
+          </a>
           </div>
           <div className="grid grid-cols-2 col-span-2 gap-10">
             <div className="space-y-4 text-sm">
