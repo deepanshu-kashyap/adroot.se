@@ -194,7 +194,7 @@ export default function Home() {
            <a href="https://calendly.com/yash-hypeon/30min" target="_blank" rel="noopener noreferrer"
            className="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-slate-200 transition-all inline-block text-center">
            Book a growth call
-          </a>
+            </a>
           </div>
           <div className="grid grid-cols-2 col-span-2 gap-10">
             <div className="space-y-4 text-sm">
