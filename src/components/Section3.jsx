@@ -22,7 +22,7 @@ export default function Section3() {
         <div className='profile_right_content'>
           <div
             className="calendly-inline-widget"
-            data-url="https://calendly.com/mathiasb_a_m/growthcall?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=02b67a"
+            data-url="https://calendly.com/yash-hypeon/30min"
             style={{ minWidth: '200px', height: '600px' }}
           ></div>
 

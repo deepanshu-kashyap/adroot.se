@@ -76,7 +76,7 @@ export default function WorkWithUs() {
 
         {/* Button */}
         <div className="work-btn">
-          <Link href="https://calendly.com/mathiasb_a_m/growthcall" target="_blank">
+          <Link href="https://calendly.com/yash-hypeon/30min" target="_blank">
             Start your free growth audit
           </Link>
         </div>
