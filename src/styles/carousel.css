@@ -1,0 +1,48 @@
+.partners-section {
+  width: 100%;
+  padding: 30px 0;
+  background: #ffffff;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* ✅ Center container like BrainyAds */
+.partners-container {
+  max-width: 1000px;   /* adjust width if needed */
+  margin: 0 auto;       /* center horizontally */
+  padding: 0 40px;      /* left & right space */
+}
+
+.partners-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.partners-slider {
+  width: 100%;
+}
+
+.partner-logo {
+  width: 140px;
+  height: auto;
+  
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .partners-container {
+    padding: 0 20px;
+  }
+
+  .partner-logo {
+    width: 100px;
+  }
+}

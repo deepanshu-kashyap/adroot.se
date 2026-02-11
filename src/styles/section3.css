@@ -1,0 +1,57 @@
+.profile_section {
+  background: #0B238E;
+  padding: 40px;
+  text-align: center;
+
+}
+
+.profile_section h1 {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.profile_section_content {
+  display: flex;
+  gap: 20px; /* spacing between left and right */
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  max-width: 1100px;       /* fixed width */
+  margin: 0 auto;     /* center horizontally */
+  justify-content: center;
+}
+
+
+.profile_left_content,
+.profile_right_content {
+  flex: 1 1 45%; /* grow 1, shrink 1, basis 45% */
+  min-width: 240px; /* prevent too small on mobile */
+}
+
+.profile_left_content .box {
+  padding: 40px 20px;
+
+  background: #fff;
+  border-radius: 20px;
+  text-align: left;
+  margin-bottom: 20px; /* spacing between boxes */
+}
+
+/* Optional: make iframe inside right content fill container */
+.profile_right_content .calendly-inline-widget {
+  width: 100%;
+  height: 600px;
+  border-radius: 20px; /* optional */
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .profile_section_content {
+    flex-direction: column;
+    gap: 20px;
+      width: auto;       /* fixed width */
+  }
+
+  .profile_left_content,
+  .profile_right_content {
+    flex: 1 1 100%;
+  }
+}

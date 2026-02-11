@@ -1,0 +1,70 @@
+.clientwins-section {
+  padding: 80px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.clientwins-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Badge Button */
+.clientwins-badge {
+  display: inline-block;
+  background: #e6f7f1;
+  color: #00b67a;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+/* Titles */
+.clientwins-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.clientwins-subtitle {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin-bottom: 50px;
+}
+
+/* Video Grid */
+.clientwins-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+
+/* Wistia Responsive Video */
+.wistia-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16; /* for vertical video */
+  overflow: hidden;
+}
+
+.wistia-iframe {
+  position: absolute;
+  inset: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .clientwins-title {
+    font-size: 32px;
+  }
+
+  .clientwins-grid {
+    grid-template-columns: 1fr;
+  }
+}

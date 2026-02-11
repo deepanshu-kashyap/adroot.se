@@ -1,0 +1,115 @@
+.scale-section {
+  padding: 80px 20px;
+  text-align: center;
+  background: #f9fbfa;
+}
+
+/* Header */
+.scale-header {
+  max-width: 700px;
+  margin: 0 auto 60px auto;
+}
+
+.scale-badge {
+  display: inline-block;
+  background: #d9f3ea;
+  color: #0aa37f;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.scale-header h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.scale-header p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  font-weight: bolder;
+}
+
+/* Cards Layout */
+.scale-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Card Style */
+.scale-card {
+  background: #0b0b0b;
+  color: white;
+  border-radius: 20px;
+  padding: 40px 28px;
+  width: 270px;
+  min-height: 200px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.scale-card:hover {
+  transform: translateY(-6px);
+}
+
+.scale-card h3 {
+  color: #00c389;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.scale-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.scale-card p {
+  font-size: 14.5px;
+  line-height: 1.7;
+  color: #d1d1d1;
+}
+
+/* Button */
+.scale-btn-wrap {
+  margin-top: 50px;
+}
+
+.scale-btn {
+  background: #0B238E;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.scale-btn:hover {
+  background: #00a875;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .scale-card {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .scale-header h2 {
+    font-size: 32px;
+  }
+}
