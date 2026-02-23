@@ -15,7 +15,7 @@ export default function Section3() {
           <div className='box'>
             <p>We pinpoint your bottlenecks and profit leaks based on real data, not guesses. And we give you a clear roadmap to fix them.</p>
             <p>We benchmark performance across 10+ markets and $91M+ in revenue so you know exactly where you stand and how far you can scale.</p>
-            <p>Magnus will walk you through our analysis on a 1:1 session. We'll look for bottlenecks, scaling opportunities and give you concrete examples on what your funnel is missing.</p>
+            <p>We will walk you through our analysis on a 1:1 session. We'll look for bottlenecks, scaling opportunities and give you concrete examples on what your funnel is missing.</p>
           </div>
         </div>
 

@@ -49,11 +49,11 @@ export default function Difference() {
           <div className="compare-header">
             <Image
               src="/dif2.avif"
-              alt="Brainy Ads Media"
+              alt="adroot"
               width={300}
               height={80}
             />
-            <h3>Brainy Ads Media</h3>
+            <h3>adroot</h3>
           </div>
 
           <ul className="compare-list positive">

@@ -88,7 +88,7 @@ export default function WorkWithUs() {
         <div className='column'>
           <img
             src="/logo3.png"
-            alt="Brainy Ads Media"
+            alt="adroot"
             className='logo'
           />
         </div>
@@ -99,14 +99,14 @@ export default function WorkWithUs() {
           <p>
             <strong>Address:</strong>
             <br />
-            Haderslevvej 22, st. tv, 6000 Kolding, Denmark
+            Mörbylund 15B, 182 30 Danderyd, Sweden
           </p>
           <p>
             <strong>CVR:</strong>
             <br />
-            42896322 – Brainy Ads Media
+            42896322 – adroot
             <br />
-            45607968 – BrainyAdsMedia APS
+            45607968 – adroot
           </p>
         </div>
 
@@ -116,19 +116,19 @@ export default function WorkWithUs() {
           <p>
             <strong>Call us:</strong>
             <br />
-            +45 25 36 55 40
+            +46 73 569 34 21
           </p>
           <p>
             <strong>Mail us:</strong>
             <br />
-            Emils@brainyadsmedia.com
+            adrootab_3275@emailportal.bjornlunden.com
           </p>
         </div>
       </div>
 
       {/* Footer Bottom */}
       <div className='bottom'>
-        <p>Copyright © 2026. All rights reserved Brainyadsmedia APS.</p>
+        <p>Copyright © 2026. All rights reserved adroot APS.</p>
       </div>
     </footer>
 

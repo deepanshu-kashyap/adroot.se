@@ -5,7 +5,7 @@ export default function Partners() {
     "partner1.avif",
     "partner2.avif",
     "partner3.avif",
-    "partner4.avif",
+    /*"partner4.avif",*/
     "partner5.avif",
     
   ];

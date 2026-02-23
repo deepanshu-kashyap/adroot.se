@@ -42,7 +42,7 @@ export default function Home() {
       <Sectionthree />
       <Videosection />
       <ScaleSection />
-      <ClientWins />
+      {/* <ClientWins /> */}
       <Difference />
       <WorkWithUs />
     </>
