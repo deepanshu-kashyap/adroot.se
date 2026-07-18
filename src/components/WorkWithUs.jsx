@@ -101,13 +101,14 @@ export default function WorkWithUs() {
             <br />
             Mörbylund 15B, 182 30 Danderyd, Sweden
           </p>
+          {/*
           <p>
             <strong>CVR:</strong>
             <br />
             42896322 – adroot
             <br />
             45607968 – adroot
-          </p>
+          </p> */}
         </div>
 
         {/* Contact Us */}
@@ -118,17 +119,19 @@ export default function WorkWithUs() {
             <br />
             +46 73 569 34 21
           </p>
+          {/*
           <p>
-            <strong>Mail us:</strong>
+           <strong>Mail us:</strong>
             <br />
             adrootab_3275@emailportal.bjornlunden.com
-          </p>
+          </p> 
+          */}
         </div>
       </div>
 
       {/* Footer Bottom */}
       <div className='bottom'>
-        <p>Copyright © 2026. All rights reserved adroot APS.</p>
+        <p>Copyright © 2026. All rights reserved adroot ab.</p>
       </div>
     </footer>
 

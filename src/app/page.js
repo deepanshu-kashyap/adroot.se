@@ -36,8 +36,8 @@ export default function Home() {
 
       {/* Page Components */}
       <Hero />
-      <Partners />
-      <Carousel />
+      {/* <Partners /> */}
+      {/* <Carousel /> */}
       <Sectiontwo />
       <Sectionthree />
       <Videosection />
